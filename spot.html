@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>景點介紹</title>
+    <link rel="stylesheet" href="./css/coffee.css">
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background: rgb(165, 118, 46);">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="font-size:30px"> 
+                <img src="./img/coffee.png" alt="" width="50" height="50">
+                東山咖啡</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+    
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i>首頁 <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="spot.html"><i class="fas fa-tree"></i>景點介紹<span
+                            class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traffic.html"><i class="fas fa-car"></i>交通介紹</a>
+                    </li>
+                </ul>
+    
+            </div>
+        </div>
+    
+    </nav>
+
+<!-- 計算內容區的最小高度為 100vh -nav高 - footer高-內容區的上下margin  -->
+    <div class="container my-5" style="min-height: calc(100vh - 59px - 50px - 6rem);">
+        <div class="row">
+            <div class="col-12 col-md-6 my-2">
+                    <div class="card slideInLeft wow">
+                            <img src="img/Coffee-goods_01.jpg"" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"><i class="fas fa-sun" style="color:violet;"></i>東山農會咖啡文化館</h5>
+                              <p class="card-text">保有日據時代興建的米倉與碾米廠， <br>
+                                  為了保存極具時代意義的古老建築，活化地方產業， <br>
+                                  東山區農會秉著服務的心與歷史文化責任的傳承，<br>
+                                  特別進行閒置空間改造，利用農會旁檜木建造的舊倉庫，<br>
+                                  結合東山區別具規模與特色的咖啡產業，<br>
+                                  提供民眾一個富有知性與感性的休憩據點。<br>
+                                    </p>
+                              <a href="https://goo.gl/maps/K7LEaSEwcJB8hJAQ6" class="btn btn-primary"><i class="fas fa-map-marker-alt"></i> 地圖</a>
+                            </div>
+                          </div> 
+                   </div>
+                   <div class="col-12 col-md-6 my-2">
+                        <div class="card slideInRight wow">
+                                <img src="img/fest_coffee_1.jpg"" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title"><i class="fas fa-sun" style="color:violet;"></i>東山咖啡起源</h5>
+                                  <p class="card-text">
+                                        1884 年 ( 光緒 10 年 ) 英人引入於台北三峽試植，日據時代日本人看台灣氣候土壤適合栽植咖啡，
+                                        遂自國外引進「阿拉比卡」，於 1941 年在台灣種植，由於品質風味絕佳，造就咖啡在台灣之全盛時期，
+                                        不久日本發動太平洋戰爭，咖啡銷售成問題，農人改種稻米，日本戰敗後台灣經濟蕭條，農民棄作放任栽培，
+                                        直到最近十年咖啡又受到國人青睞，才又興起咖啡的栽培。
+                                        <br>
+                                       
+                                        </p>
+                                  <a href="https://goo.gl/maps/K7LEaSEwcJB8hJAQ6" class="btn btn-primary"><i class="fas fa-map-marker-alt"></i> 地圖</a>
+                                </div>
+                              </div> 
+                       </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+   
+            
+ 
+
+    <div class="container-fluid bg-secondary" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <h1 class="text-white text-center" style="font-size: 20px">&copy;2019 泰山職訓</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/wow.min.js"></script>
+<!-- 要加入wow效果，須先加入此行 -->
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>
